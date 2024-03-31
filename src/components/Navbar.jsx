@@ -61,18 +61,18 @@ const Navbar = () => {
                             </Sheet>
 
                             <ul className="hidden lg:flex gap-6 mx-auto h-16 items-center">
-                                <Link href="#home" scroll={false} className="h-full">
+                                <Link href="/#home" scroll={false} className="h-full">
                                     <li className="cursor-pointer h-full flex items-center border-b-[2px] border-transparent hover:border-b-sky-700">Home</li>
                                 </Link>
-                                <Link href="#about" scroll={false} className="h-full">
+                                <Link href="/#about" scroll={false} className="h-full">
                                     <li className="cursor-pointer h-full flex items-center border-b-[2px] border-transparent hover:border-b-sky-700">About</li>
                                 </Link>
-                                <Link href="#projects" scroll={false} className="h-full">
+                                <Link href="/#projects" scroll={false} className="h-full">
                                     <li className="cursor-pointer h-full flex items-center border-b-[2px] border-transparent hover:border-b-sky-700">Projects</li>
                                 </Link>
                             </ul>
 
-                            <Link href="#contact" scroll={false} className="hidden lg:flex rounded-lg overflow-hidden">
+                            <Link href="/#contact" scroll={false} className="hidden lg:flex rounded-lg overflow-hidden">
                                 <button className="ml-auto hidden lg:flex border-[2px] border-slate-900 px-3 py-2 rounded-lg gap-2 justify-center items-center hover:bg-slate-900 hover:text-white hover:transition-all hover:duration-100"><FaPaperPlane /> Let's talk</button>
                             </Link>
                         </div>
